@@ -1,0 +1,22 @@
+.not-found {
+    width: 100%;
+    /*Será feito um calculo, porque o proprio nao entende que o HEADER por exemplo tem 60px, entao para pega a tela inteira sera feito 100vh - 60px para
+    Tira do HEADER*/
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.not-found h1 {
+    font-size: 120px;
+}
+
+.not-found a {
+    text-decoration: none;
+    background-color: #116feb;
+    color: #fff;
+    padding: 10px;
+    margin-top: 14px;
+}
